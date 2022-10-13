@@ -50,14 +50,14 @@
             <!-- target files -->
             <mapping local="target/" repository="&STEP;/&TARGET_LANG;/" />
           </repository>
-          <repository type="git" url="https://github.com/&ORG;/PISA_&TARGET_LANG;_Translation1_OMT.git">
-            <!-- translation 1 -->  
+          <repository type="git" url="https://github.com/&ORG;/PISA_2025_&TARGET_LANG;_Translation1_OMT.git">
+            <!-- translation 1 -->
             <mapping local="tm/rec/T1.tmx" repository="omegat/project_save.tmx" />
           </repository>
-          <repository type="git" url="https://github.com/&ORG;/PISA_&TARGET_LANG;_Translation2_OMT.git">
+          <repository type="git" url="https://github.com/&ORG;/PISA_2025_&TARGET_LANG;_Translation2_OMT.git">
              <!-- translation 2 -->
             <mapping local="tm/rec/T2.tmx" repository="omegat/project_save.tmx" />
-          </repository>            
+          </repository>
       </repositories>
     </project>
 </omegat>
